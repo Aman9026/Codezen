@@ -1,0 +1,11 @@
+ int a = 50;
+ int *ptr = &a;
+ int *q = ptr;
+ (*q)++;
+ cout << a  << endl;
+ 
+ Options
+50
+51
+Error
+None of these
