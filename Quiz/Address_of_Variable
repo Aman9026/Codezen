@@ -4,3 +4,6 @@ Options
 a;
 &a;
 address(a);
+
+
+&a;
