@@ -1,0 +1,10 @@
+int a = 7;
+int b = 17;
+int *c = &b;
+*c = 7;
+cout  << a << "  “ << b << endl;
+Options
+7 17
+17 7
+7 7
+17 17
