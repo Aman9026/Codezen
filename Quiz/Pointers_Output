@@ -7,3 +7,5 @@ b is assigned to a
 p now points to b
 a is assigned to b
 q now points to a
+
+p now points to b 
