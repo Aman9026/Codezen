@@ -4,3 +4,6 @@ int x;
 int &x;
 int *x;
 ptr x;
+
+
+int *x;
