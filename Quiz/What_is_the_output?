@@ -1,0 +1,9 @@
+Assume integer takes 4 bytes and integer pointer 8 bytes.
+int a[5];
+int *c;
+cout << sizeof(a) << “ “ << sizeof(c);
+Options
+8 8
+5 8
+20 8 
+20 4
