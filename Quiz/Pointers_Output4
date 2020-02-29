@@ -3,3 +3,9 @@ What will be the output ?
  char* ptr = &ch;
  ch++;
  cout << *ptr << endl;
+
+Options
+a
+b
+97
+98
