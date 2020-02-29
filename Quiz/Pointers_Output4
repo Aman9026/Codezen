@@ -1,0 +1,5 @@
+What will be the output ?
+ char ch = 'a';
+ char* ptr = &ch;
+ ch++;
+ cout << *ptr << endl;
