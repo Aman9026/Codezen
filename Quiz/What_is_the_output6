@@ -3,3 +3,9 @@ char b[] = "xyz";
 char *c = &b[0];
 c++;
 cout << c << endl;
+
+Options
+201
+y
+xyz
+yz
