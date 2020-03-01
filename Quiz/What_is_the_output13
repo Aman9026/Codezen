@@ -1,1 +1,10 @@
 
+What is the output of the following program ?
+#include <iostream>
+using namespace std;
+
+int main(){
+    int  const  p = 5;
+    cout << ++p;
+    return 0;
+}
