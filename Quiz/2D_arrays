@@ -4,3 +4,6 @@ Options
 int *twoDArray = new int[10][10];
 int **twoDArray = new int*[10];
 int **twoDArray = new int[10][10];
+
+
+int **twoDArray = new int*[10]
