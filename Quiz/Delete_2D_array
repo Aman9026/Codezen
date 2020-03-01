@@ -8,3 +8,20 @@ int main()
     for(int i = 0; i < 10; i++)
         *(twoDArray + i) = new int[10];
 }
+
+Options are -
+A. 
+delete twoDArray [][];
+
+B.
+for(int i = 0; i < 10; i++)
+    delete twoDArray[i];
+
+C.
+for(int i = 0; i < 10; i++)
+    delete [] twoDArray[i];
+
+D.
+for(int i = 0; i < 10; i++)
+    delete twoDArray[i][];
+
