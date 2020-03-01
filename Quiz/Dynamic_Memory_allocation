@@ -1,1 +1,7 @@
 In CPP, dynamic memory allocation is done using ______________ operator.
+
+Options
+calloc()
+malloc()
+allocate
+new 
