@@ -5,3 +5,9 @@ using namespace std;
 int main() {
     int *a = new int;
 }
+
+Options
+free a;
+delete *a;
+delete a; 
+new a;
