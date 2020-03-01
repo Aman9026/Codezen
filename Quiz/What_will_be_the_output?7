@@ -3,3 +3,9 @@ int *p = &a;
 int **q = &p;
 int b = (**q)++ + 4;
 cout << a << " " << b << endl;
+
+Options
+100 104
+101 104
+101 105
+100 105
