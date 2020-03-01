@@ -6,3 +6,9 @@ What will be the output ?
   int *r = *q;
   (*r)++;
   cout << a << " " << b << endl;
+  
+  Options
+102 100
+101 100
+101 101
+102 101
