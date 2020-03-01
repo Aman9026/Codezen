@@ -9,3 +9,8 @@ int main(){
   cout << a << endl;
 }
 
+Options
+-10
+10
+Error
+None of the above
