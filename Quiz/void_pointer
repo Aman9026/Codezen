@@ -1,1 +1,6 @@
 Void pointer can point to which type of objects ?
+Options
+int
+double
+float
+All
