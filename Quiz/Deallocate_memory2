@@ -11,3 +11,6 @@ free a;
 delete *a;
 delete a; 
 new a;
+
+
+delete a; 
