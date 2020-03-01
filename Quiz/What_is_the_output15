@@ -12,3 +12,8 @@ int main() {
     int ans = func(num - 1);
     cout << ans;
 }
+Options
+Compilation Error
+Runtime Error
+5
+None of these
