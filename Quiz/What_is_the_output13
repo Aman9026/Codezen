@@ -8,3 +8,8 @@ int main(){
     cout << ++p;
     return 0;
 }
+Options
+5
+6
+Error
+Garbage
