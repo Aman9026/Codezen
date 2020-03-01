@@ -9,3 +9,8 @@ int main(){
     cout << p << endl;
     return 0;
 }
+Options
+Error
+5
+6
+None
