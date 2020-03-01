@@ -5,3 +5,4 @@ int main()
         char ch = i;
         cout << ch << endl;
 }
+A
