@@ -9,3 +9,9 @@ int main(){
  increment(&ptr);
  cout << num << endl;
 }
+
+Options
+10
+11
+Error
+None of these
