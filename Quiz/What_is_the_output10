@@ -14,3 +14,7 @@ int main(){
     func(i, j, p);
     cout << i << " " << j << " " << p;
 }
+
+Anaswer
+
+10 7 10
