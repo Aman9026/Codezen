@@ -5,3 +5,7 @@ NULL
 Other dynamically allocated memory
 The same deleted memory location
 It points back to location it was initialized with
+
+
+
+The same deleted memory location
