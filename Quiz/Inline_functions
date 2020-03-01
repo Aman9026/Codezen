@@ -1,1 +1,6 @@
 Inline functions are useful when ______
+Options
+Function is large with many nested loops
+Function has many static variables
+Function is small and we want to avoid function call overhead.
+None of the above
