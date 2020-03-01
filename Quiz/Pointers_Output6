@@ -10,3 +10,9 @@ int main(){
  square(&a);
  cout << a << endl;
 }
+
+Options
+100
+10
+Error
+None of these
