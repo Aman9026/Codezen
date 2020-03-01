@@ -1,4 +1,4 @@
-Given an array of length N, you need to find and return the sum of all elements of the array.
+/*Given an array of length N, you need to find and return the sum of all elements of the array.
 Do this recursively.
 Input Format :
 Line 1 : An Integer N i.e. size of array
@@ -12,3 +12,13 @@ Sample Input :
 9 8 9
 Sample Output :
 26
+*/
+
+int sum(int input[], int n) {
+    
+    int sum=0;
+    for(int i=0;i<n;i++){
+     sum+=input[i];   
+    }
+return sum;
+}
