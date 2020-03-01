@@ -1,3 +1,5 @@
+/*
+Problem:
 Given an array of length N and an integer x, you need to find and return the first index of integer x present in the array. Return -1 if it is not present in the array.
 First index means, the index of first occurrence of x in the input array.
 Do this recursively. Indexing in the array starts from 0.
@@ -15,3 +17,12 @@ Sample Input :
 8
 Sample Output :
 1
+
+CODE:
+*/
+int firstIndex(int input[], int size, int x) {
+ for(int i=0;i<size;i++){
+     if(input[i]==x){return i;}
+ }
+return -1;
+}
