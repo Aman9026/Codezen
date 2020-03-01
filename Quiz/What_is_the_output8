@@ -11,3 +11,6 @@ int main(){
     updateValue((int*)&ch);
     cout << ch;
 }
+
+
+d
