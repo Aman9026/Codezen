@@ -17,3 +17,9 @@ Compilation Error
 Runtime Error
 5
 None of these
+
+
+Compilation error
+segmentation fault
+Solution Description
+Since the base case is missing in the code, therefore there will be infinite recursion calls and hence runtime error will occur.
