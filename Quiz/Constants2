@@ -7,3 +7,8 @@ int main(){
     int p = 5;
     int * const q = &p;
 }
+
+Options
+p++;
+q++;
+(*q)++;
