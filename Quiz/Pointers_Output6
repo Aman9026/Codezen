@@ -7,3 +7,5 @@ int main() {
     fun(a + 1);
     cout << a[0];
 }
+
+Answer
