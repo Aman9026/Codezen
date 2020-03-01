@@ -11,3 +11,10 @@ int main(){
    cout << getValue(10);
    return 0;
 }
+
+
+Options
+10
+0
+20
+Compilation Error
