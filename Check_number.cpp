@@ -1,4 +1,4 @@
-Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
+/*Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
 Do this recursively.
 Input Format :
 Line 1 : An Integer N i.e. size of array
@@ -14,3 +14,10 @@ Sample Input :
 8
 Sample Output :
 true
+*/
+bool checkNumber(int input[], int size, int x) {
+ for(int i=0;i<size;i++){
+     if(input[i]==x){return true;}
+ }
+return false;
+}
