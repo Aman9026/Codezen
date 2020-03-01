@@ -1,1 +1,6 @@
 Correct statement for deallocating the array is -
+Options
+delete [] arr;
+delete arr;
+delete *arr;
+delete [] *arr;
