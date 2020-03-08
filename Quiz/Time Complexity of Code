@@ -1,0 +1,18 @@
+What will be the Time Complexity of following code in terms of ‘n’ ?
+Refer the code for C++ -
+for(int i = 0; i < n; i++){
+    for(; i < n; i++){
+        cout << i << endl;
+    }
+}
+Refer the same code in Java -
+for(int i = 0; i < n; i++){
+    for(; i < n; i++){
+        System.out.println(i);
+    }
+}
+Refer the same code in Python -
+    for i in range(n):
+        while i<n:
+            print(i)
+            i += 1
