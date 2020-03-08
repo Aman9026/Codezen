@@ -16,3 +16,10 @@ Refer the same code in Python -
         while i<n:
             print(i)
             i += 1
+
+
+Options
+O(n)
+O(n^2)
+O(logn)
+O(nlogn)
