@@ -1,0 +1,18 @@
+What will be the Time Complexity of following code in terms of ‘n’ ?
+Note : Assume k to be a constant value
+Refer the code in C++ -
+  for(int i = 0; i < n; i++){
+     for(int j = 1 ; j < k; j++){
+        cout << (i + j ) << endl;
+      }
+  }
+Refer the same code in Java -
+for(int i = 0; i < n; i++){
+       for(int j = 1 ; j < k; j++){
+         System.out.println(i + j);
+       }
+}
+Refer the same code in Python -
+for i in range(n):
+    for j in range(k):
+        print(i+j)
