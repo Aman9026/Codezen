@@ -1,0 +1,6 @@
+For merging two sorted arrays of size m and n into a sorted array of size m+n, we require operations -
+Options
+O(m * n)
+O(m + n)
+O(m) if m >= n
+O(n) if n > m
