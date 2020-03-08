@@ -13,3 +13,6 @@ O(logn) - log is to the base 10
 O(n)
 O(n^2)
 None of these
+
+
+O(logn) - log is to the base 10
