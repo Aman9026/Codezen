@@ -1,0 +1,6 @@
+What is the recurrence relation for merge sort :
+Options
+T(n) = 2T(n/2)
+T(n) = 2T(n/2) + k
+T(n) = 2T(n/2) + O(n)
+T(n) = 2T(n/2) + O(log n)
