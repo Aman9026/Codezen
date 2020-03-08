@@ -4,3 +4,10 @@ int multiplyRec(int m, int n){
         return m;
     return m + multiplyRec(m,  n - 1);  
 }
+
+
+Options
+O(m*n)
+O(n)
+O(n^2)
+O(m)
