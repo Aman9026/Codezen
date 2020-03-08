@@ -4,3 +4,5 @@ O(n)
 O(n^2)
 O(nlogn)
 O(logn)
+
+O(n)
