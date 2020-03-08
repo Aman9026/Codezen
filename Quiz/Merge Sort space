@@ -1,0 +1,6 @@
+The space complexity for merge sort is :
+Options
+O(n) 
+O(n^2)
+O(nlogn)
+O(log n)
