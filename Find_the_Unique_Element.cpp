@@ -19,3 +19,8 @@ Sample Output :
 
 CODE:
 */
+int ans = arr[0];
+    for(int i = 1; i < size; i++){
+        ans = ans ^ arr[i];
+    }
+    return ans;
