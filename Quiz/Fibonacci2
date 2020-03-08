@@ -6,3 +6,6 @@ O(2^n)
 O(log n)
 O(n^2)
 O(nlogn)
+
+
+O(n) 
