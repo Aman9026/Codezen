@@ -23,3 +23,6 @@ O(n^2)
 O(n)
 O(logn)
 None of these
+
+
+O(n)
