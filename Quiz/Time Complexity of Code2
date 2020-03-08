@@ -16,3 +16,10 @@ Refer the same code in Python -
 for i in range(n):
     for j in range(k):
         print(i+j)
+
+
+Options
+O(n^2)
+O(n)
+O(logn)
+None of these
