@@ -1,3 +1,6 @@
+/*
+PROBLEM:
+
 Given a random integer array and a number x. Find and print the triplets of elements in the array which sum to x.
 While printing a triplet, print the smallest element first.
 That is, if a valid triplet is (6, 5, 10) print "5 6 10". There is no constraint that out of 5 triplets which have to be printed on 1st line. You can print triplets in any order, just be careful about the order of elements in a triplet.
@@ -22,3 +25,38 @@ Sample Output ;
 2 3 7
 2 4 6
 3 4 5
+
+
+CODE:
+
+*/
+
+
+void FindTriplet(int arr[], int size, int x) {
+    /* Don't write main().
+     * Don't read input, it is passed as function argument.
+     * Print output and don't return it.
+     * Taking input is handled automatically.
+     */
+  for(int i = 0;i<size;i++){
+    for(int j = i;j<size;j++){
+      if(arr[i]>arr[j]){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  
+  for(int i = 0;i<size;i++){
+    for(int j = i;j<size;j++){
+      for(int k = j;k<size;k++){
+        if(arr[i]+arr[j]+arr[k]==x && (i!=j && j!=k && i!=k)){
+          cout<<arr[i]<<" "<<arr[j]<<" "<<arr[k]<<endl;
+        }
+      }
+    }
+  }
+return;
+
+}
