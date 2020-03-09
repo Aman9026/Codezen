@@ -1,3 +1,6 @@
+/*
+PROBLEM:
+
 You are given with an array of integers that contain numbers in random order. Write a program to find the longest possible sequence of consecutive numbers using the numbers from given array.
 You need to return the output array which contains consecutive elements. Order of elements in the output is not important.
 Best solution takes O(n) time.
@@ -30,3 +33,47 @@ Sample Input 3 :
 Sample Output 3 :
 15 
 16
+
+
+CODE:
+*/
+
+#include <vector>
+#include<algorithm>
+#include<iostream>
+#include<unordered_map>
+using namespace std;
+
+vector<int> longestConsecutiveIncreasingSequence(int *arr, int n){
+	//Your Code goes here
+     unordered_map<int,int> countMap;
+    vector<int> results;
+
+    for(int i=0;i<n;i++)
+    {
+        countMap[arr[i]]++;
+    }
+
+    int start_element=0,n_elements=0;
+
+    for(int i=0;i<n;i++)
+    {
+        if(countMap.find(arr[i]-1)==countMap.end())
+        {
+            int next_consecutive_element=arr[i];
+            while(countMap.find(next_consecutive_element)!=countMap.end())
+                next_consecutive_element++;
+
+            if(n_elements<next_consecutive_element-arr[i])
+            {
+                n_elements=next_consecutive_element-arr[i];
+                start_element=arr[i];
+            }
+
+        }
+    }
+
+    for(int i=start_element;i<start_element+n_elements;i++)
+        results.push_back(i);
+    return results;
+}
