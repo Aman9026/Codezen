@@ -21,3 +21,12 @@ Sample Output 2 :
 
 CODE:
 */
+
+
+int turnOnIthBit(int n, int i){
+  
+
+   int  m = 1<<i;
+    return m|n;
+
+}
