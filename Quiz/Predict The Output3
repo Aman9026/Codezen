@@ -9,3 +9,13 @@ int main(){
         cout << "no";
     }
 }
+
+
+Options
+yes
+no 
+Compile time error
+Undefined
+
+
+no
