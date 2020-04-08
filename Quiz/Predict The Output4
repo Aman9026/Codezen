@@ -10,3 +10,10 @@ int main(){
         cout << y;
     }
 }
+
+
+Options
+y is 0
+y is 1
+1
+0
