@@ -1,0 +1,7 @@
+Which bitwise operator is suitable for turning on a particular bit in a number?
+
+Options
+&& operator
+& operator
+|| operator
+| operator
