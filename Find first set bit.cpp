@@ -17,3 +17,18 @@ Sample Output 2 :
 
 CODE:
 */
+
+
+int returnFirstSetBit(int n){
+    /* Don't write main().
+     * Don't read input, it is passed as function argument.
+     * Return output and don't print it.
+     * Taking input and printing output is handled automatically.
+     */
+     
+   for(int i=0;i<32;i++){
+        if((n&(1<<i))){
+            return (1 << i);
+        }
+    }
+}
