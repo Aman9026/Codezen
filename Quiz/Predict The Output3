@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    int x = -2;
-    x = x >> 1;
-    cout << x;
+    if(~0 == 1) {
+        cout << "yes";
+    }
+    else {
+        cout << "no";
+    }
 }
-
-
--1
