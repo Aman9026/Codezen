@@ -46,3 +46,28 @@ int main() {
     cout<<max_profit;
      
 }
+//Alt
+
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+
+	// Write your code here
+    int n;
+    cin >> n ;
+    int arr[n];
+    for(int i = 0 ; i < n ;i++){
+        cin >> arr[i];
+    }
+    int min=arr[0],maxprofit=0;
+    for(int i = 1 ; i < n ;i++){
+        if(min>arr[i]){
+            min = arr[i];
+        }else{
+        if(arr[i]-min >maxprofit){
+      maxprofit =arr[i]-min;
+      }}
+    }
+  
+    cout << maxprofit<<endl;
+}
